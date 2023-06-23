@@ -1,0 +1,29 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package ds.tutorial.inventory.grpc.generated;
+
+message CheckInventoryRequest {
+    string productId = 1;
+}
+
+message CheckInventoryResponse {
+    double inventory = 1;
+}
+
+message SetInventoryRequest {
+    string productId = 1;
+    double value = 2;
+    bool isSentByPrimary = 3;
+}
+
+message SetInventoryResponse {
+    bool status = 1;
+}
+
+service CheckInventoryService {
+    rpc checkInventory(CheckInventoryRequest) returns (CheckInventoryResponse);
+}
+
+service SetInventoryService {
+    rpc setInventory(SetInventoryRequest) returns (SetInventoryResponse);
+}

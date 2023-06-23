@@ -1,0 +1,21 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(·Ó‰Ï
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†“£Ôûÿÿÿÿ
+‘
+java:S1130,"}Remove the declaration of thrown exception 'org.apache.zookeeper.KeeperException', as it cannot be thrown from method's body.(‡ëg
+‹
+java:S1130,"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(‡ëg
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(Êåô§
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(˜¬†•
+t
+java:S2142v"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+T
+java:S1117l">Rename "leaderData" which hides the field declared at line 21.(ã•ø™
+>	java:S108v")Either remove or fill this block of code.(”ı¾
+S	java:S106|"9Replace this use of System.out or System.err by a logger.(ÀñÜúÿÿÿÿ
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(ÄëÊ‡úÿÿÿÿ
+H
+java:S3398F"-Move this method into "LeaderCampaignThread".(ØÆÌÌùÿÿÿÿ
+C
+java:S3398{"-Move this method into "LeaderCampaignThread".(éñ£€
